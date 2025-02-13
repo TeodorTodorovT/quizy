@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import Quiz from './components/quiz';
+import Quiz from './components/Quiz';
 import QuizSelection from './components/QuizSelection';
 import QuizResults from './components/QuizResults';
 type Difficulty = 'easy' | 'medium' | 'hard';
